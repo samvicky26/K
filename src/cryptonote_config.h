@@ -75,7 +75,7 @@ static_assert(STAKING_PORTIONS % 3 == 0, "Use a multiple of three, so that it di
 #define YEARLY_INFLATION_INVERSE                        200 // 0.5% yearly inflation, inverted for integer division
 #define EMISSION_SUPPLY_MULTIPLIER                      20
 #define EMISSION_SUPPLY_DIVISOR                         10
-#define EMISSION_DIVISOR                                1000000
+#define EMISSION_DIVISOR                                50000
 
 #define CRYPTONOTE_REWARD_BLOCKS_WINDOW                 100
 #define CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2    60000 //size of block (bytes) after which reward for block calculated using block size
